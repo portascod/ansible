@@ -1,4 +1,9 @@
-10.10.90.41 apache_package=apache2 php_package=libapache2-mod-php
-10.10.90.42 apache_package=apache2 php_package=libapache2-mod-php
-10.10.90.43 apache_package=apache2 php_package=libapache2-mod-php
-10.10.90.44 apache_package=httpd php_package=php
+[web_servers]
+10.10.90.41
+10.10.90.44
+
+[db_servers]
+10.10.90.42
+
+[file_servers]
+10.10.90.43
